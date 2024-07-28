@@ -1,0 +1,282 @@
+@import url(./fonts.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    max-width: 1640px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+  
+}
+.nav{
+    background-color: black;
+    height: 80px;
+}
+.nav_box{
+    display: flex;
+ justify-content: center;
+}
+.nav_start_text{
+    font-family: 'Roboto Regular';
+    color: white;
+    margin-top: 30px;
+    align-items: center;
+    margin-left: 400px;
+}
+.nav_start_list{
+    font-family: 'Roboto bold';
+    color: #ffff;
+    margin-top: 30px;
+    align-items: center;
+    margin-left: 20px;
+    transition: 0.6s;
+}
+.nav_start_length{
+    font-family: 'Roboto Regular';
+    color: #ffff;
+    margin-top: 30px;
+margin-left: 530px;
+}
+.nav_start_list:hover{
+    color: silver;
+}
+.nav_info{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 500px;
+}
+.nav_text{
+    align-items: center;
+    margin-left: -500px;
+}
+.nav_list a{
+    font-family: 'Roboto Regular';
+   position: relative;
+    color: black;
+}
+.nav_div{
+    color: #ffff;
+}
+.nav_lists1{
+margin-left: 48px;
+color: black;
+}
+.nav_lists2{
+    margin-left: 48px;
+    color: black;
+}
+.nav_lists3{
+    margin-left: 48px;
+    color: black;
+}
+.nav_lists4{
+    margin-left: 48px;
+    color: black;
+}
+.nav_list a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+background: rgb(90,82, 82);
+transition: 0.5s;
+}
+.nav_list a:hover::before{
+    width: 100%;
+}
+.nav_logo{
+    display: flex;
+   gap: 16px;
+   margin-left: 24px;
+}
+.nav_form{
+   display: flex;
+   margin-left: 320px;
+   align-items: center;
+}
+.nav_input{
+    padding: 15px;
+    background-color: #F5F5F5;
+    border: none;
+    align-items: center;
+}
+.nav_btn{
+    border: none;
+    width: 40px;
+    height: 45px;
+   background-color:#F5F5F5;
+   
+}
+.line{
+    width: 1940px;
+    height: 1px;
+    margin-left: -200px;
+    margin-top: 20px;
+    background-color: silver;
+}
+.header{
+    display: flex;
+}
+.header_list{
+    display: flex;
+    align-items: center;
+}
+.header_lists{
+    display: flex;
+    font-family: 'Roboto Regular';
+color: black;
+ margin-top: 40px;
+ align-items: center;
+}
+.header_div{
+    display: flex;
+    font-family: 'Roboto Regular';
+    align-items: center;;
+    gap: 40px;
+}
+.strelka{
+    margin-left: 15px;
+}
+.strelka2{
+    margin-left: 15px;
+}
+.line2{
+    width: 1px;
+    height: 580px;
+    background-color:silver;
+    margin-left: 16px;
+}
+.header_swiper{
+    background-color:black;
+    width: 900px;
+height: 384px;
+top: 182px;
+left: 413px;
+gap: 0px;
+opacity: 0px;
+margin-left: 145px;
+margin-top: 50px;
+align-items: center;
+border-radius: 10px;
+}
+.header_card_img2{
+    width: 50px;
+    height: 60px;
+margin-left: 380px;
+margin-top:  -300px;
+
+}
+.header_card_img{
+    margin-left: -20px;
+}
+.header_card_div{
+    display: flex;
+    flex-direction: column;
+}
+.header_card_div2{
+    display: flex;
+    margin-top: 40px;
+}
+.header_card_info{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: 50px;
+}
+.header_cards{
+ margin-left: 100px;
+ margin-top: 58px;
+ align-items: center;
+}
+.header_card_text{
+    font-family: 'Roboto Regular';
+    color: #fafafa;
+    margin-top: px;
+}
+.header_card_list{
+    font-family: 'Roboto Regular';
+    color: #fafafa;
+    font-size: 53px;
+    width: 280px;
+    margin-left: -20px;
+    margin-top: 10px;
+}
+.header_card_hover{
+    font-family: 'Roboto Regular';
+    color: #fafafa;
+    margin-left: -20px;
+ margin-top: 2px;
+ position: relative;
+}
+.header_strelka{
+    margin-left: 8px;
+}
+.header_card_hover::before{
+content: '';
+position: absolute;
+top: 100%;
+left: 0;
+width: 0;
+height: 2px;
+background:#FAFAFA;
+transition: 0.5s;
+}
+.header_card_hover:hover::before{
+    width: 100%;
+}
+
+
+
+
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+nter;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+.swiper_card3{
+    width: 500px;
+    height: 530px;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+.swiper_card4{
+    width: 560px;
+    height: 500px;
+    margin-left: 500px;
+    margin-top: 30px;
+}
+.swiper_card5{
+    width: 500px;
+    height: 460px;
+    margin-left: 500px;
+    margin-top: 30px; 
+}
+.swiper_card6{
+    width: 480px;
+    height: 480px;
+    margin-left: 500px;
+    margin-top: 30px;
+}
+.swiper-button-prev{
+    width: 30px;
+    height: 40px;
+}
